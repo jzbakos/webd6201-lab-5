@@ -11,7 +11,7 @@ let path = require('path');
 let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
-// Controllers
+// Route Controllers
 let indexRouter = require('./routes/index.js');
 let usersRouter = require('./routes/users.js');
 
