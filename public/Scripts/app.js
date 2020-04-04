@@ -13,5 +13,10 @@
         console.log("App started!");
     }
 
+    // When the user clicks the About Me button on the home page
+    document.getElementById("aboutButton").onclick = function () {
+        location.href = "about";
+    };
+
     window.addEventListener("load", Start);
  })();
