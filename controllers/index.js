@@ -1,3 +1,10 @@
+/**
+ * File: index.js
+ * Author: Josh Bakos
+ * Student ID: 100652490
+ * Date: 2020-04-04
+ */
+
 // Controller modules
 module.exports.displayHome = (res) =>
 {
