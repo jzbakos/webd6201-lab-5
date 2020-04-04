@@ -1,0 +1,15 @@
+/**
+ * File: style.css
+ * Author: Josh Bakos
+ * Student ID: 100652490
+ * Date: 2020-04-04
+ */
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}

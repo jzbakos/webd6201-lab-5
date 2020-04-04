@@ -1,13 +1,21 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+/**
+ * File: app.js
+ * Author: Josh Bakos
+ * Student ID: 100652490
+ * Date: 2020-04-04
+ */
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+let createError = require('http-errors');
+let express = require('express');
+let path = require('path');
+let cookieParser = require('cookie-parser');
+let logger = require('morgan');
 
-var app = express();
+// Controllers
+let indexRouter = require('./routes/index.js');
+let usersRouter = require('./routes/users.js');
+
+let app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

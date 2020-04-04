@@ -1,5 +1,12 @@
-var express = require('express');
-var router = express.Router();
+/**
+ * File: index.js
+ * Author: Josh Bakos
+ * Student ID: 100652490
+ * Date: 2020-04-04
+ */
+
+let express = require('express');
+let router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
