@@ -5,38 +5,118 @@
  * Date: 2020-04-04
  */
 
- .input-group-addon:first-child
- {
-     border-right: 0;
- }
- 
- .input-group-addon
- {
-     padding: 6px 12px;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 1;
-     text-align: center;
-     border: 1px solid darkgrey;
-     border-radius: 4xpx; 
- }
- 
- .input-group-addon .fa
- {
-     font-size: 18px;
- }
- 
- .input-group .form-control
- {
-     position:relative;
-     z-index: 2;
-     float:left;
-     width: 100%;
-     margin-bottom: 0;
- }
- 
- .input-group .form-control:last-child
- {
-     border-top-left-radius: 0;
-     border-bottom-left-radius: 0;
- }
+.jumbotron {
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+
+#contact_card {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#contentArea {
+  text-align: center;
+  padding: 30px;
+  padding-top: 10px;
+}
+
+#services_list {
+  margin: auto;
+  width: 80%;
+}
+
+.list-group-item {
+  text-align: left;
+}
+
+#list_languages {
+  width: 50%;
+}
+
+#about_row,
+#services_row {
+  width: 70%;
+  margin: auto;
+  padding: 0px;
+}
+
+#home_row {
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+}
+
+#about_contentArea,
+#home_contentArea {
+  display: inline-block;
+  padding: 20px;
+}
+
+#about_avatar {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#big_logo {
+  border-right: 1px solid rgb(187, 187, 187);
+  margin-right: 15px;
+}
+
+#nav_logo {
+  border-radius: 50%;
+  margin: 5px;
+}
+
+#nav_logo:hover {
+  opacity: 80%;
+}
+
+.navbar-nav {
+  float: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float: none;
+}
+
+.input-group-addon:first-child {
+  border-right: 0;
+}
+
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 4xpx;
+}
+
+.input-group-addon .fa {
+  font-size: 18px;
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.input-group .form-control:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.card-img-top {
+  width: 100%;
+}
