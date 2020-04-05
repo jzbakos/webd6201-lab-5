@@ -36,6 +36,7 @@ class Contact {
     };
   }
 
+  // Display the contact page content 
   if (document.title == "Contact" && contactObject.contactName == "") {
     DisplayContactContent();
   }
