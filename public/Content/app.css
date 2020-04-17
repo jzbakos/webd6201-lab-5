@@ -76,9 +76,8 @@
 
 .navbar-nav {
   float: none;
-  margin: 0 auto;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .navbar-nav > li {

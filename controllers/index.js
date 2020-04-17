@@ -35,3 +35,9 @@ module.exports.displayContact = (res) => {
     title: "Contact",
   });
 };
+
+module.exports.displayLogin = (res) => {
+  res.render("index", {
+    title: "Login",
+  });
+};

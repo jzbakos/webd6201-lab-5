@@ -39,4 +39,9 @@ router.get("/contact", function (req, res, next) {
   controllers.displayContact(res);
 });
 
+/* GET Login page. */
+router.get("/login", function (req, res, next) {
+  controllers.displayLogin(res);
+});
+
 module.exports = router;
