@@ -12,7 +12,7 @@
  */
 
 let app = require("./app");
-let debug = require("debug")("lab-4:server");
+let debug = require("debug")("lab-5:server");
 let http = require("http");
 
 /**
